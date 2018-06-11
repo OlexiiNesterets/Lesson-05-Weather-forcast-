@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: #3399CC;
+    box-sizing: border-box;
+    border: 15px solid #2B81AC;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #F2F7FC;
+}
+
+header {
+    margin: 15px 0px 15px 25%
+}
+
+footer {
+    margin-left: 25%;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.to-inline-block {
+    display: inline-block;
+}
+
+.header-icon {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0px auto;
+    padding: 0px;
+    width: 670px;
+    list-style: none;
+    text-align: center;
+    font-size: 0px;
+}
+
+ul > li {
+    display: inline-block;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 15px 10px 5px;
+    font-size: 16px;
+}
+
+ul,
+li {
+    border: 2px solid white;
+}
+
+ul:hover li:not(:hover) {
+    opacity: .4;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-table-width {
+    width: 50%;
+}
+
+.quarter-table-width {
+    width: 25%;
+}
+
+.weather-in-city {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.temperature {
+    padding: 10px 1px 14px;
+}
+
+.temperature::after {
+    content: "°C";
+}
+
+[class~="temperature"] + i {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.lisbon {
+    background: #3399CC;
+}
+
+.paris {
+    background: #33CCCC;
+}
+
+.belgrade {
+    background: #996699;
+}
+
+.moscow {
+    background: #C24747;
+}
+
+.tel-aviv {
+    background: #E2674A;
+}
+
+.cair {
+    background: #FFCC66;
+}
+
+.new-york {
+    background: #99CC99;
+}
+
+.new-delhi {
+    background: #669999;
+}
+
+.san-francisco {
+    background: #CC6699;
+}
+
+.tokyo {
+    background: #339966;
+}
+
+.sydney {
+    background: #666699;
+}
